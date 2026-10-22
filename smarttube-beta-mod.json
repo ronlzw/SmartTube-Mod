@@ -1,17 +1,1 @@
-{
-    "package": {
-        "downloadUrlList": [
-            "https://raw.githubusercontent.com/ronlzw/SmartTube-Mod/release/SmartTube-Beta-Mod.apk"
-        ],
-        "downloadUrlList_arm64-v8a": [
-            "https://raw.githubusercontent.com/ronlzw/SmartTube-Mod/release/SmartTube-Beta-Mod.apk"
-        ],
-        "downloadUrlList_x86": [
-            "https://raw.githubusercontent.com/ronlzw/SmartTube-Mod/release/SmartTube-Beta-Mod.apk"
-        ]
-    },
-    "32.68": {
-        "versionCode": 2460,
-        "changelog": ["改版 v3：首页取消直播行；以订阅新片为骨干，每隔约4条穿插一条旧片，旧片逐个订阅频道轮流取；直播与预告一律过滤；首页只显示订阅频道视频"]
-    }
-}
+{"32.68":{"changelog":["改版 v4：首页改为两行——第一行「首页」以旧片为主，旧片与较深处的新片按 3:2 穿插；第二行「最新上传」放最新 30 条新片；直播与预告一律过滤；首页只显示订阅频道视频"],"versionCode":2461},"package":{"downloadUrlList":["https://raw.githubusercontent.com/ronlzw/SmartTube-Mod/release/SmartTube-Beta-Mod.apk"],"downloadUrlList_arm64-v8a":["https://raw.githubusercontent.com/ronlzw/SmartTube-Mod/release/SmartTube-Beta-Mod.apk"],"downloadUrlList_x86":["https://raw.githubusercontent.com/ronlzw/SmartTube-Mod/release/SmartTube-Beta-Mod.apk"]}}
