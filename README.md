@@ -14,12 +14,13 @@ exactly two things:
 1. **Home shows subscriptions only.** The Home tab keeps its original
    layout and all sidebar sections, but its video content comes from the
    signed-in account's **Subscriptions** feed instead of YouTube's
-   recommended feed — so a child using this build only sees videos from
+   recommended feed, split into two rows — live/upcoming streams and
+   recent uploads — so a child using this build only sees videos from
    channels the account is subscribed to.
 2. **In-app updates point to this repository.** The built-in update
-   checker reads its update manifest from this repo's GitHub Releases
-   (not from upstream), so "update" inside the app installs the newest
-   build of *this modified version*.
+   checker reads its update manifest from this repo (served from the
+   `release` branch, not from upstream), so "update" inside the app
+   installs the newest build of *this modified version*.
 
 Nothing else is changed. Search, channels, playback, history and all
 other features behave exactly like upstream.
@@ -30,8 +31,8 @@ The original upstream readme is preserved as
 
 ## Install
 
-Download the universal APK from the
-[Releases](../../releases) page and install it on the Android TV.
+Download the universal APK `SmartTube-Beta-Mod.apk` from the
+[`release` branch](../../tree/release) and install it on the Android TV.
 Package name is `org.smarttube.beta` (same as upstream Beta), so it
 coexists with SmartTube Stable — but because it is signed with a
 different key, it cannot be installed over the official Beta: back up
@@ -50,15 +51,16 @@ preserved throughout the source tree.
 
 ## 中文说明
 
-呢个系 **SmartTube 嘅非官方改版**，原版作者系 yuliskov
-（https://github.com/yuliskov/SmartTube），本项目同原作者无关。
+这是 **SmartTube 的非官方改版**，原版作者为 yuliskov
+（https://github.com/yuliskov/SmartTube），本项目与原作者无关。
 
-基于原版 **32.68（Beta）**，只改两样嘢：
+基于原版 **32.68（Beta）**，只改动两处：
 
-1. **首页只显示订阅视频**——首页排版同栏目不变，但内容改成嚟自账号
-   「订阅」嘅视频，唔再显示 YouTube 推荐俾小朋友睇到杂乱内容。
-2. **App 内在线更新改指本仓库**——点更新会升到呢个改版嘅新版本，
-   唔会升返官方版本。
+1. **首页只显示订阅视频**——首页排版与栏目不变，内容改为来自账号
+   「订阅」的视频，并拆成两行：「订阅直播」与「最近上载」，不再显示
+   YouTube 推荐内容，避免孩子看到杂乱的推荐视频。
+2. **App 内在线更新指向本仓库**——点击更新会升级到本改版的新版本，
+   不会升回官方版本；更新文件通过本仓库的 `release` 分支发布。
 
-其余功能同原版完全一样。授权跟原版同为 GPL-3.0，改版源码已按授权
-要求全数公开喺本仓库。
+其余功能与原版完全相同。授权与原版同为 GPL-3.0，改版源码已按授权
+要求全部公开于本仓库。
