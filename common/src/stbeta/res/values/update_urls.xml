@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="update_urls">
+        <!-- FRY MOD: updates come from our own mod builds, not upstream -->
+        <item>https://yt.adi-ronnie.top/api/smarttube-beta-mod.json</item>
+    </string-array>
+</resources>
