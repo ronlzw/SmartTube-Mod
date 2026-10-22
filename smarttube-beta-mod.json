@@ -1,0 +1,17 @@
+{
+    "package": {
+        "downloadUrlList": [
+            "https://raw.githubusercontent.com/ronlzw/SmartTube-Mod/release/SmartTube-Beta-Mod.apk"
+        ],
+        "downloadUrlList_arm64-v8a": [
+            "https://raw.githubusercontent.com/ronlzw/SmartTube-Mod/release/SmartTube-Beta-Mod.apk"
+        ],
+        "downloadUrlList_x86": [
+            "https://raw.githubusercontent.com/ronlzw/SmartTube-Mod/release/SmartTube-Beta-Mod.apk"
+        ]
+    },
+    "32.68": {
+        "versionCode": 2459,
+        "changelog": ["改版 v2：首页订阅内容拆成两行（訂閱直播、最近上載）；首页只显示订阅频道视频；经 GitHub 发布"]
+    }
+}
