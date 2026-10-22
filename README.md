@@ -14,9 +14,12 @@ exactly two things:
 1. **Home shows subscriptions only.** The Home tab keeps its original
    layout and all sidebar sections, but its video content comes from the
    signed-in account's **Subscriptions** feed instead of YouTube's
-   recommended feed, split into two rows — live/upcoming streams and
-   recent uploads — so a child using this build only sees videos from
-   channels the account is subscribed to.
+   recommended feed, arranged in two rows: the first row, “Home”, is
+   led by older videos, with newer uploads from deeper in the feed mixed
+   in at a 3:2 ratio; the second row, “Latest uploads”, shows the 30
+   newest uploads. Live streams and upcoming premieres never appear on
+   Home — so a child using this build only sees videos from channels the
+   account is subscribed to.
 2. **In-app updates point to this repository.** The built-in update
    checker reads its update manifest from this repo (served from the
    `release` branch, not from upstream), so "update" inside the app
@@ -57,7 +60,9 @@ preserved throughout the source tree.
 基于原版 **32.68（Beta）**，只改动两处：
 
 1. **首页只显示订阅视频**——首页排版与栏目不变，内容改为来自账号
-   「订阅」的视频，并拆成两行：「订阅直播」与「最近上载」，不再显示
+   「订阅」的视频，并拆成两行：第一行「首页」以旧片为主，旧片与订阅源
+   较深处的新片按 3:2 穿插；第二行「最新上传」显示最新 30 条新片；
+   直播与预告一律不出现在首页，不再显示
    YouTube 推荐内容，避免孩子看到杂乱的推荐视频。
 2. **App 内在线更新指向本仓库**——点击更新会升级到本改版的新版本，
    不会升回官方版本；更新文件通过本仓库的 `release` 分支发布。
