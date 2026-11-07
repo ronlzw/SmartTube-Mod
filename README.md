@@ -8,7 +8,7 @@
 
 ## What is different from the original?
 
-Based on upstream **SmartTube 32.68 (Beta channel)**, this build changes
+Based on upstream **SmartTube 32.71 (Beta channel)**, this build changes
 exactly two things:
 
 1. **Home shows subscriptions only.** The Home tab keeps its original
@@ -57,7 +57,7 @@ preserved throughout the source tree.
 这是 **SmartTube 的非官方改版**，原版作者为 yuliskov
 （https://github.com/yuliskov/SmartTube），本项目与原作者无关。
 
-基于原版 **32.68（Beta）**，只改动两处：
+基于原版 **32.71（Beta）**，只改动两处：
 
 1. **首页只显示订阅视频**——首页排版与栏目不变，内容改为来自账号
    「订阅」的视频，并拆成两行：第一行「首页」以旧片为主，旧片与订阅源
